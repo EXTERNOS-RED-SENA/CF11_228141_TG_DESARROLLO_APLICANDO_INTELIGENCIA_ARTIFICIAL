@@ -178,7 +178,7 @@
               img(src="@/assets/curso/tema1/16.svg")
           .col-md(style="place-self:center;")
             p.mb-0 Además, conocer los componentes básicos de las aplicaciones #[em web] y cómo interactúan es clave para diseñar soluciones eficientes y escalables. A medida que se avanza en el desarrollo de aplicaciones con inteligencia artificial, estos conceptos servirán como base para abordar desafíos más complejos y crear experiencias de usuario de alta calidad.
-        .p-4(style="background-color:#EDE9EC;border-radius:7px;")
+        .p-4.mt-4(style="background-color:#EDE9EC;border-radius:7px;")
           p.mb-0 En los siguientes capítulos, se profundizará en temas como la persistencia y gestión de datos, el desarrollo de APIs RESTful y la creación de interfaces de usuario avanzadas. Estos conocimientos complementarán lo aprendido hasta ahora y permitirán construir aplicaciones completas que aprovechen al máximo las capacidades de la inteligencia artificial.
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure
