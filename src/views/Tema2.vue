@@ -126,7 +126,7 @@
     .row
       .col-lg(data-aos="fade-right")
         p Para aplicaciones que requieren compartir datos entre múltiples usuarios o dispositivos, es necesario utilizar una base de datos externa como MySQL. MySQL es un sistema de gestión de bases de datos relacional ampliamente utilizado en aplicaciones #[em web].
-        .p-4.mt-4(style="background-color:#E6F0FC;border-radius:9px;")
+        .p-3.mt-4(style="background-color:#E6F0FC;border-radius:9px;")
           h5 Instalación de MySQL
           ul.lista-ul.mb-0
             li.d-flex.bg-white.p-2(style="border-radius:4px;")

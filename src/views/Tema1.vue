@@ -68,7 +68,7 @@
         span Beneficios de MVVM y Clean Architecture
       .tabla-a.color-acento-contenido(data-aos="fade-up")
         table
-          caption.mt-3.fw-normal #[strong Fuente:] OIT, 2024.
+          caption.mt-2.fw-normal #[strong Fuente:] OIT, 2024.
           thead(style="border:0;")
             tr.text-center(style="background-color:#13DE61;")
               th(style="border:0;border-right:1px #AFAFAF solid;") Beneficio
