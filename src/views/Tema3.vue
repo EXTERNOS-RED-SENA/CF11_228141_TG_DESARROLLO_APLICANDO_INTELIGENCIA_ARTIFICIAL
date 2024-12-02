@@ -107,7 +107,6 @@
           .col-lg-auto.d-none.d-lg-block
             figure
               img(src="@/assets/curso/tema3/11.png")
-        p.mt-3.mb-0 Spyder-IDE es un entorno de desarrollo específico para Python, orientado a científicos de datos y analistas. Incluye herramientas para la edición de código, ejecución interactiva y visualización de datos, lo que lo hace ideal para proyectos de inteligencia artificial y aprendizaje automático.
 
     .row.mt-4
       .col-lg(data-aos="fade-right")

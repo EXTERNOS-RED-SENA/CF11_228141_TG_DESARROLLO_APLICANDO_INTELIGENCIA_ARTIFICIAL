@@ -118,7 +118,7 @@
                 img(src="@/assets/curso/tema1/10.svg")
             .col-md(style="place-self:center;")
               p.mb-0 La estructura de un proyecto en estos entornos suele organizarse en módulos y archivos que reflejan la arquitectura de la aplicación. Los módulos agrupan funcionalidades relacionadas y facilitan la navegación y el mantenimiento del código. Por ejemplo, un módulo puede contener todas las clases y funciones relacionadas con la gestión de usuarios, mientras que otro maneja la interacción con la base de datos.
-      .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
+      .col-lg-auto.d-none.d-xl-block(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/11.png")
     
