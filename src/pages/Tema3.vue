@@ -47,7 +47,7 @@
         .col-lg(data-aos="fade-left")
           p Es importante adoptar estándares de codificación y patrones de diseño que aseguren la consistencia y mantenibilidad de la API. Utilizar convenciones de nomenclatura coherentes para las rutas y parámetros facilita la comprensión y uso por parte de otros desarrolladores. Además, implementar el manejo adecuado de errores y códigos de estado HTTP permite que los clientes de la API gestionen las respuestas de manera efectiva.
           .p-4(style="background-color:#DED5DB;border-radius:7px;")
-            p.mb-0 Las pruebas son una parte integral del desarrollo de APIs. Herramientas como Postman y Hoppscotch permiten enviar solicitudes HTTP a la API y verificar las respuestas. Con ellas, es posible simular diferentes escenarios, probar la autenticación y asegurar que los endpoints funcionen correctamente bajo diversas condiciones. Estas herramientas también facilitan la documentación de la API, proporcionando ejemplos claros de cómo interactuar con ella.
+            p.mb-0 Las pruebas son una parte integral del desarrollo de APIs. Herramientas como Postman y Hoppscotch permiten enviar solicitudes HTTP a la API y verificar las respuestas. Con ellas, es posible simular diferentes escenarios, probar la autenticación y asegurar que los #[em endpoints] funcionen correctamente bajo diversas condiciones. Estas herramientas también facilitan la documentación de la API, proporcionando ejemplos claros de cómo interactuar con ella.
       
       Separador
     
@@ -63,7 +63,7 @@
       .col-lg(data-aos="fade-left")
         p Para implementar un modelo de IA en una API, primero es necesario entrenar el modelo utilizando datos relevantes y asegurarse de que su rendimiento cumple con los requisitos de la aplicación. Una vez entrenado, el modelo se integra en el servidor donde reside la API. Esto implica garantizar que las dependencias y bibliotecas necesarias estén disponibles en el entorno de ejecución.
         .p-4(style="background-color:#CFE1FA;border-radius:7px;")
-          p.mb-0 Al diseñar el endpoint que expondrá las capacidades del modelo, se deben considerar los formatos de entrada y salida de datos. Por ejemplo, si el modelo analiza imágenes, el endpoint debe aceptar archivos de imagen en un formato específico y devolver resultados en un formato estructurado como JSON. Es importante también manejar casos de error, como entradas no válidas o excepciones durante la ejecución del modelo.
+          p.mb-0 Al diseñar el #[em endpoint] que expondrá las capacidades del modelo, se deben considerar los formatos de entrada y salida de datos. Por ejemplo, si el modelo analiza imágenes, el #[em endpoint] debe aceptar archivos de imagen en un formato específico y devolver resultados en un formato estructurado como JSON. Es importante también manejar casos de error, como entradas no válidas o excepciones durante la ejecución del modelo.
     
     p.mt-4(data-aos="fade-right") Existen varios requerimientos y consideraciones clave al integrar modelos de IA en APIs:
 
@@ -87,7 +87,7 @@
         figure
           img(src="@/assets/curso/tema3/9.svg")
       .col-md(data-aos="fade-left" style="place-self:center;")
-        p.mb-0 Un ejemplo práctico de integración podría ser un servicio de traducción en tiempo real. El modelo de IA se entrena para traducir texto de un idioma a otro. La API expone un endpoint al que se envía texto en el idioma original y devuelve la traducción. Para garantizar un rendimiento óptimo, el modelo podría optimizarse utilizando técnicas de compresión o implementarse en un entorno de ejecución especializado como TensorFlow Serving.
+        p.mb-0 Un ejemplo práctico de integración podría ser un servicio de traducción en tiempo real. El modelo de IA se entrena para traducir texto de un idioma a otro. La API expone un #[em endpoint] al que se envía texto en el idioma original y devuelve la traducción. Para garantizar un rendimiento óptimo, el modelo podría optimizarse utilizando técnicas de compresión o implementarse en un entorno de ejecución especializado como #[em TensorFlow Serving].
     
     Separador
     
@@ -103,14 +103,14 @@
         .row
           .col-lg
             .p-4.d-flex.align-content-center.h-100.flex-wrap(style="background-color:#E6F0FC;")
-              p.mb-0 Retrofit es una biblioteca para Android que facilita las solicitudes HTTP y la interacción con APIs RESTful. Permite definir interfaces en el código que representan los endpoints de la API, y luego, mediante anotaciones, especificar los métodos HTTP y rutas correspondientes. Retrofit maneja la serialización y deserialización de datos, lo que simplifica el manejo de las respuestas y solicitudes.
+              p.mb-0 Retrofit es una biblioteca para Android que facilita las solicitudes HTTP y la interacción con APIs RESTful. Permite definir interfaces en el código que representan los #[em endpoints] de la API, y luego, mediante anotaciones, especificar los métodos HTTP y rutas correspondientes. Retrofit maneja la serialización y deserialización de datos, lo que simplifica el manejo de las respuestas y solicitudes.
           .col-lg-auto.d-none.d-lg-block
             figure
               img(src="@/assets/curso/tema3/11.png")
 
     .row.mt-4
       .col-lg(data-aos="fade-right")
-        p Por su parte, GSON es una biblioteca que permite convertir objetos Java en su representación JSON y viceversa. Al trabajar con Retrofit, GSON se utiliza para transformar automáticamente las respuestas JSON de la API en objetos que pueden manipularse en la aplicación. Esto reduce el código necesario para procesar los datos y minimiza errores asociados con el parsing manual.
+        p Por su parte, GSON es una biblioteca que permite convertir objetos Java en su representación JSON y viceversa. Al trabajar con Retrofit, GSON se utiliza para transformar automáticamente las respuestas JSON de la API en objetos que pueden manipularse en la aplicación. Esto reduce el código necesario para procesar los datos y minimiza errores asociados con el #[em parsing] manual.
         .p-4.p-md-3(style="background-color:#E6FBEE;border-radius:7px;")
           .row
             .col-md-auto.d-none.d-md-block(style="place-self:center;")

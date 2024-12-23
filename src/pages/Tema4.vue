@@ -52,7 +52,7 @@
       .col-lg(data-aos="fade-left")
         
         .cont_titulo3(data-aos="flip-up")
-          h5 Layouts: Box, Column y Row
+          h5.fst-italic Layouts: Box, Column y Row
         
         p Los layouts son componentes fundamentales en el diseño de interfaces con Jetpack Compose. Permiten organizar y posicionar los elementos en la pantalla.
 
@@ -60,14 +60,14 @@
           ul.lista-ul.mb-0
             li.d-flex.mb-1
               i.fas.fa-check-circle(style="color:#1169E3;")
-              span #[strong Box:] es un contenedor que apila sus hijos uno encima del otro, permitiendo superposiciones.
+              span #[strong.fst-italic Box:] es un contenedor que apila sus hijos uno encima del otro, permitiendo superposiciones.
             li.d-flex.mb-1
               i.fas.fa-check-circle(style="color:#1169E3;")
-              span #[strong Column:] organiza los elementos en una disposición vertical, colocando cada elemento debajo del anterior.
+              span #[strong.fst-italic Column:] organiza los elementos en una disposición vertical, colocando cada elemento debajo del anterior.
             li.d-flex.mb-0
               i.fas.fa-check-circle(style="color:#1169E3;")
-              span #[strong Row:] dispone los elementos horizontalmente, uno al lado del otro.
-        p.mt-3.mb-0 Estos layouts pueden anidarse y combinarse para crear estructuras más complejas. Por ejemplo, se puede utilizar una Column que contenga varias Rows para diseñar una cuadrícula personalizada.
+              span #[strong.fst-italic Row:] dispone los elementos horizontalmente, uno al lado del otro.
+        p.mt-3.mb-0 Estos #[em layouts] pueden anidarse y combinarse para crear estructuras más complejas. Por ejemplo, se puede utilizar una #[em Column] que contenga varias #[em Rows] para diseñar una cuadrícula personalizada.
     
     p.mt-4(data-aos="fade-right") La siguiente figura ilustra cómo se organizan los componentes en Jetpack Compose para crear una interfaz de usuario. Muestra la jerarquía de layouts y componentes, desde el contenedor principal hasta los elementos individuales.
 
@@ -86,7 +86,7 @@
       
       .row
         .col-lg(data-aos="fade-right" style="place-self:center;")
-          p.mb-0 Los modificadores son una herramienta poderosa que permite ajustar el comportamiento y apariencia de los componentes. Pueden cambiar el tamaño, el padding, el color, la alineación y más. El componente Text se utiliza para mostrar texto en la pantalla. Permite personalizar la tipografía, el estilo y aplicar modificadores para ajustar su presentación. Las imágenes se muestran utilizando el componente Image, que admite la carga de recursos locales o remotos. Se pueden aplicar modificadores para ajustar el tamaño, la forma y otros aspectos visuales.
+          p.mb-0 Los modificadores son una herramienta poderosa que permite ajustar el comportamiento y apariencia de los componentes. Pueden cambiar el tamaño, el #[em padding], el color, la alineación y más. El componente #[em Text] se utiliza para mostrar texto en la pantalla. Permite personalizar la tipografía, el estilo y aplicar modificadores para ajustar su presentación. Las imágenes se muestran utilizando el componente Image, que admite la carga de recursos locales o remotos. Se pueden aplicar modificadores para ajustar el tamaño, la forma y otros aspectos visuales.
         .col-lg-auto.d-none.d-lg-block(data-aos="fade-left" style="place-self:center;")
           figure
             img(src="@/assets/curso/tema4/5.svg")
@@ -98,12 +98,12 @@
         .col-lg(data-aos="fade-left")
           
           .cont_titulo3(data-aos="flip-up")
-            h5 Grids, Listas, Navegación y Tarjetas (Cards)
+            h5 #[em Grids], Listas, Navegación y Tarjetas (#[em Cards])
           
           p Para manejar listas de datos y estructuras repetitivas, Jetpack Compose ofrece componentes como LazyColumn y LazyRow, que renderizan eficientemente listas verticales y horizontales respectivamente.
 
           .p-4(style="background-color:#DFE9EA;border-radius:4px;")
-            p.mb-0 Las grids permiten organizar elementos en forma de cuadrícula, ideal para galerías de imágenes o listas de productos. La navegación entre diferentes pantallas se gestiona mediante el componente NavHost, que define las rutas y destinos de la aplicación. Las tarjetas o Cards son componentes visuales que encapsulan contenido y acciones sobre un tema específico. Siguen las directrices de Material Design y aportan consistencia y estética a la aplicación.
+            p.mb-0 Las grids permiten organizar elementos en forma de cuadrícula, ideal para galerías de imágenes o listas de productos. La navegación entre diferentes pantallas se gestiona mediante el componente NavHost, que define las rutas y destinos de la aplicación. Las tarjetas o #[em Cards] son componentes visuales que encapsulan contenido y acciones sobre un tema específico. Siguen las directrices de Material Design y aportan consistencia y estética a la aplicación.
 
     Separador
     
@@ -126,19 +126,19 @@
             ul.lista-ul.ps-4
               li.d-flex.mb-1
                 i.fas.fa-check-circle(style="color:#1169E3;")
-                span #[strong Tema de Aplicación:] Afecta a todos los componentes de la aplicación.
+                span #[strong Tema de Aplicación:] afecta a todos los componentes de la aplicación.
               li.d-flex.mb-1
                 i.fas.fa-check-circle(style="color:#1169E3;")
-                span #[strong Tema de Activity:] Se aplica a una actividad específica.
+                span #[strong Tema de Activity:] se aplica a una actividad específica.
               li.d-flex.mb-1
                 i.fas.fa-check-circle(style="color:#1169E3;")
-                span #[strong Tema de Vista:] Se aplica a un componente o vista en particular.
+                span #[strong Tema de Vista:] se aplica a un componente o vista en particular.
               li.d-flex.mb-1
                 i.fas.fa-check-circle(style="color:#1169E3;")
-                span #[strong Estilo de Vista:] Define atributos para un tipo específico de componente, como botones o textos.
+                span #[strong Estilo de Vista:] define atributos para un tipo específico de componente, como botones o textos.
               li.d-flex.mb-0
                 i.fas.fa-check-circle(style="color:#1169E3;")
-                span #[strong TextAppearance:] Es un estilo específico para textos, que controla atributos como la fuente, el tamaño y el color.
+                span #[strong TextAppearance:] es un estilo específico para textos, que controla atributos como la fuente, el tamaño y el color.
             p.mb-0 La prioridad de aplicación de estilos y temas va desde los más generales (tema de aplicación) hasta los más específicos (estilo de vista). Esto permite sobrescribir atributos en niveles inferiores cuando sea necesario.
           .row.col-xl-11.m-auto(titulo="Componentes de Material Design: BottomAppBar, Floating Action Button, CardView")
             p Material Design es un sistema de diseño desarrollado por Google que proporciona directrices para crear interfaces intuitivas y coherentes. Jetpack Compose incorpora muchos de estos componentes, facilitando su implementación.
@@ -176,7 +176,7 @@
               li.d-flex.mb-0
                 i.fas.fa-check-circle(style="color:#1169E3;")
                 span #[strong JavaScript:] añade interactividad y lógica a la página.
-            p.mb-0 Dominar estas tecnologías permite crear interfaces #[em web] dinámicas y responsivas. HTML5 introduce nuevas etiquetas semánticas que mejoran la accesibilidad y el SEO. CSS3 aporta características avanzadas de diseño, como animaciones y transiciones. JavaScript, junto con frameworks como React o Vue.js, facilita la creación de aplicaciones #[em web] complejas.
+            p.mb-0 Dominar estas tecnologías permite crear interfaces #[em web] dinámicas y responsivas. HTML5 introduce nuevas etiquetas semánticas que mejoran la accesibilidad y el SEO. CSS3 aporta características avanzadas de diseño, como animaciones y transiciones. JavaScript, junto con #[em frameworks] como React o Vue.js, facilita la creación de aplicaciones #[em web] complejas.
           .row.col-xl-11.m-auto(titulo="Elaboración y despliegue de interfaces <em>web</em>")
             p El proceso de desarrollo incluye:
             ul.lista-ul.ps-4
@@ -198,7 +198,7 @@
             p La interacción entre el #[em front-end] y el #[em back-end] es medular. Las pruebas de integración aseguran que las solicitudes y respuestas entre ambos funcionen correctamente.
             p.mb-0 Se utilizan herramientas como Postman para simular solicitudes desde el #[em front-end] y verificar que el #[em back-end] responda adecuadamente. También se pueden implementar pruebas automatizadas que ejecuten escenarios completos de uso.
           .row.col-xl-11.m-auto(titulo="Corrección y optimización de parámetros")
-            p Después de las pruebas, es común identificar áreas de mejora. Esto puede incluir optimizar el rendimiento, corregir errores de lógica o mejorar la experiencia del usuario. Optimizar parámetros como el tamaño de las imágenes, minimizar el código CSS y JavaScript, y utilizar técnicas de carga diferida (lazy loading) puede mejorar significativamente la velocidad de la aplicación.
+            p Después de las pruebas, es común identificar áreas de mejora. Esto puede incluir optimizar el rendimiento, corregir errores de lógica o mejorar la experiencia del usuario. Optimizar parámetros como el tamaño de las imágenes, minimizar el código CSS y JavaScript, y utilizar técnicas de carga diferida (#[em lazy loading]) puede mejorar significativamente la velocidad de la aplicación.
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema4/8.png")

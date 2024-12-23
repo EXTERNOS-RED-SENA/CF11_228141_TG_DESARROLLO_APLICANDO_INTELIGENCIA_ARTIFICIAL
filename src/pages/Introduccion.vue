@@ -36,7 +36,7 @@
         figure
           img(src="@/assets/curso/intro4.png")
     
-    p.mt-4(data-aos="fade-up") ¡Te invitamos a emprender este viaje por las técnicas y prácticas esenciales de la arquitectura #[em back-end] para aplicaciones con IA!s!
+    p.mt-4(data-aos="fade-up") ¡Lo invitamos a emprender este viaje por las técnicas y prácticas esenciales de la arquitectura #[em back-end] para aplicaciones con IA!
 
     figure.mt-4(data-aos="zoom-in-up" data-aos-duration="700")
       .video

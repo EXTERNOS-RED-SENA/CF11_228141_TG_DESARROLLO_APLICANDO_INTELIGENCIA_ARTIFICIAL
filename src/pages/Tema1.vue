@@ -135,7 +135,7 @@
     .titulo-segundo(data-aos="flip-up")
       h2#t_1_3 1.3	Conceptos básicos de aplicaciones #[em web]
     
-    p(data-aos="fade-right") Las aplicaciones #[em web] modernas están compuestas por varios componentes que interactúan para ofrecer funcionalidades complejas y una experiencia de usuario fluida. Entender estos componentes es esencial para desarrollar aplicaciones back-end que integren inteligencia artificial de manera efectiva.
+    p(data-aos="fade-right") Las aplicaciones #[em web] modernas están compuestas por varios componentes que interactúan para ofrecer funcionalidades complejas y una experiencia de usuario fluida. Entender estos componentes es esencial para desarrollar aplicaciones #[em back-end] que integren inteligencia artificial de manera efectiva.
     p(data-aos="fade-left") Una aplicación suele constar de:
 
     .row.mt-4
@@ -146,7 +146,7 @@
           .row.col-xl-11.m-auto(titulo="Servicios")
             p Son procesos en segundo plano que realizan tareas sin necesidad de interacción directa con el usuario. Por ejemplo, un servicio puede sincronizar datos con un servidor remoto o procesar información recibida.
           .row.col-xl-11.m-auto(titulo="Receptores de mensajes de distribución")
-            p También conocidos como Broadcast Receivers, permiten que la aplicación responda a eventos del sistema o de otras aplicaciones. Pueden detectar cambios en la conectividad de red, recibir notificaciones de mensajes entrantes o reaccionar a alarmas programadas.
+            p También conocidos como #[em Broadcast Receivers], permiten que la aplicación responda a eventos del sistema o de otras aplicaciones. Pueden detectar cambios en la conectividad de red, recibir notificaciones de mensajes entrantes o reaccionar a alarmas programadas.
           .row.col-xl-11.m-auto(titulo="Proveedores de contenidos")
             p Facilitan el intercambio de datos entre aplicaciones de manera segura y controlada. Permiten acceder y modificar datos almacenados en una aplicación desde otra, siempre que se tengan los permisos adecuados.
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
@@ -168,7 +168,7 @@
               p.mb-0 En el desarrollo #[em back-end], es importante diseñar la interacción entre estos componentes de forma eficiente. La gestión adecuada de los servicios y receptores puede mejorar el rendimiento y la usabilidad de la aplicación. Además, garantizar la seguridad y privacidad en el intercambio de datos mediante proveedores de contenidos es esencial para proteger la información del usuario.
         p.mt-4.mb-0 Cuando se integran componentes de inteligencia artificial, como modelos de aprendizaje automático, es común que el #[em back-end] deba manejar procesamiento intensivo de datos. Es fundamental optimizar estas operaciones para no afectar la experiencia del usuario. Utilizar técnicas de procesamiento asíncrono y manejar adecuadamente los hilos de ejecución ayuda a mantener la aplicación receptiva.
     
-    p.mt-4(data-aos="fade-right") En resumen, este capítulo ha presentado los fundamentos esenciales para desarrollar una arquitectura #[em back-end] sólida en aplicaciones con inteligencia artificial. La comprensión y aplicación del patrón MVVM, complementado con la Clean Architecture, permite crear sistemas modulares y mantenibles. El uso de entornos de desarrollo integrados adecuados potencia la productividad y calidad del código.
+    p.mt-4(data-aos="fade-right") En resumen, este capítulo ha presentado los fundamentos esenciales para desarrollar una arquitectura #[em back-end] sólida en aplicaciones con inteligencia artificial. La comprensión y aplicación del patrón MVVM, complementado con la #[em Clean Architecture], permite crear sistemas modulares y mantenibles. El uso de entornos de desarrollo integrados adecuados potencia la productividad y calidad del código.
 
     .row.mt-4
       .col-lg(data-aos="fade-right")

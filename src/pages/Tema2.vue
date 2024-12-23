@@ -27,7 +27,7 @@
       .row
         .col-lg(data-aos="fade-right")
           .p-4(style="background-color:#EDE9EC;border-radius:7px;")
-            p.mb-0 es una herramienta sencilla y eficiente que permite almacenar pares clave-valor de datos primitivos en el dispositivo del usuario. Es ideal para guardar configuraciones, preferencias del usuario o cualquier información pequeña que deba persistir entre sesiones de la aplicación.
+            p.mb-0 Es una herramienta sencilla y eficiente que permite almacenar pares clave-valor de datos primitivos en el dispositivo del usuario. Es ideal para guardar configuraciones, preferencias del usuario o cualquier información pequeña que deba persistir entre sesiones de la aplicación.
           p.mb-0.mt-3 Por ejemplo, si una aplicación necesita recordar el tema de color seleccionado por el usuario, puede almacenarlo utilizando SharedPreferences. Al reiniciar la aplicación, puede recuperar este valor y aplicar el tema correspondiente, mejorando así la experiencia del usuario.
         .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
           figure
@@ -41,10 +41,10 @@
           h5 Implementación básica de SharedPreferences 
           p Para guardar un valor:
           figure.col-lg-10
-            img(src="@/assets/curso/tema2/4.svg")
+            img(src="@/assets/curso/tema2/4.svg" alt="Guardar un valor en SharedPreferences: Para almacenar un dato, primero obtenemos una instancia de SharedPreferences en modo privado. Luego, utilizamos el objeto editor para modificar y guardar el valor deseado.")
           p.mt-4 Para recuperar un valor:
           figure.col-lg-10
-            img(src="@/assets/curso/tema2/5.svg")
+            img(src="@/assets/curso/tema2/5.svg" alt="Recuperar un valor de SharedPreferences: Para acceder a un valor previamente almacenado, obtenemos la instancia de SharedPreferences y usamos el método adecuado para obtener el valor, proporcionando un valor por defecto en caso de que no exista.")
     
     .cont_titulo3.mt-5(data-aos="flip-up")
       h5 Bases de Datos SQLite: Conexión y Operaciones CRUD
@@ -179,7 +179,7 @@
     .row.mt-4 
       .col-lg.mb-4.mb-lg-0(data-aos="zoom-in")
         .p-3(style="background-color:#E6F0FC;border-radius:7px;")
-          p Crear DAO (Data Access Object):
+          p Crear DAO #[em (Data Access Object):]
           figure
             img(src="@/assets/curso/tema2/19.svg")
       .col-lg(data-aos="zoom-in")
@@ -216,14 +216,14 @@
               span #[strong Sincronización en tiempo real:] los datos se sincronizan automáticamente en todos los dispositivos conectados.
             li.d-flex.bg-white.p-2(style="border-radius:4px;")
               i.fas.fa-check-circle(style="color:#1169E3;")
-              span #[strong Soporte offline:] La aplicación sigue funcionando sin conexión y se sincroniza cuando vuelve a estar en línea.
+              span #[strong Soporte offline:] la aplicación sigue funcionando sin conexión y se sincroniza cuando vuelve a estar en línea.
             li.d-flex.bg-white.p-2.mb-0(style="border-radius:4px;")
               i.fas.fa-check-circle(style="color:#1169E3;")
               span #[strong Escalabilidad y seguridad:] maneja grandes volúmenes de datos con reglas de seguridad personalizables.
     
     h5.mt-5(data-aos="fade-right") Implementación en la aplicación
 
-    p(data-aos="fade-left") Agregar Firebase al proyecto: Utilizando el asistente en Android Studio o mediante la consola de Firebase.
+    p(data-aos="fade-left") Agregar Firebase al proyecto: utilizando el asistente en Android Studio o mediante la consola de Firebase.
 
     .row.mt-4
       .col-lg(data-aos="fade-right")
@@ -283,7 +283,7 @@
         figure
           img(src="@/assets/curso/tema2/29.png")
       .col-lg-8(data-aos="fade-left")
-        p Buenas prácticas en la construcción de consultas:
+        p Buenas prácticas en la gestión de datos
         .p-3(style="background-color:#DFE9EA;border-radius:5px;")
           ul.lista-ul.mb-0
             li.d-flex

@@ -23,7 +23,7 @@ export default {
     referencias: [
       {
         referencia:
-          'Barbara, J. (2023). Practical C++ Backend Programming: Crafting Databases, APIs, and <em>Web<7em> Servers for High-Performance Backend. GitforGits.',
+          'Barbara, J. (2023). Practical C++ Backend Programming: Crafting Databases, APIs, and <em>Web</em> Servers for High-Performance Backend. GitforGits.',
         link: '',
       },
       {
